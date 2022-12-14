@@ -254,57 +254,22 @@ ul {
 
 /* <!--Особливості--> */
 
-.section-list {
-  display: flex;
-}
+
 
 .feature-list {
   display: flex;
 }
 
-.feature-item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: #F5F4FA;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 25px 0px 25px 0px;
-/* background-size: contain; */
+.feature-icon {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
 }
 
-.feature-item:nth-child(1)::before {
-  background-image: url(../images/Group1.svg);
-  margin-bottom: 30px;
-background-size: 70px 70px;
-  
-  /* padding: 25px 100px;
-  max-width: 270px; */
-}
-
-.feature-item:nth-child(2)::before {
-  background-image: url(../images/clock\ 1.svg);
-  margin-bottom: 30px;
-  background-size: 70px 70px;
-}
-
-.feature-item:nth-child(3)::before {
-  background-image: url(../images/diagram\ 1.svg);
-  margin-bottom: 30px;
-  background-size: 70px 70px;
-}
-
-.feature-item:nth-child(4)::before {
-  background-image: url(../images/astronaut\ 1.svg);
-  margin-bottom: 30px;
-  background-size: 70px 70px;
-}
-
-.section-list li:not(:last-child) {
-  margin-right: 30px;
-  background-size: 70px 70px;
-}
 
 .feature-item:not(:last-child){
 margin-right: 30px;
