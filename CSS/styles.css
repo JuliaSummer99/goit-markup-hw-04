@@ -373,7 +373,10 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 16px;
 }
+
+/* ІКОНКИ */
 
 .social-network-list {
   display: flex;
@@ -387,11 +390,16 @@ ul {
 
 .network-link {
   display: flex;
+  padding: 0px;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
-  fill: var(--social-network-color);
+  border-radius: 50%;
+}
+
+.network-icon{
+ fill: var(--social-network-color);
 }
 
 
@@ -400,14 +408,24 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--accent-color);
 }
 
 .network-link:hover,
 .network-link:focus {
     background-color: var(--accent-color);
-    color: var(--primary-white-color) ;
 }
+
+.network-icon:hover,
+.network-icon:focus {
+fill: var(--primary-white-color);
+}
+
+
+
+
+
+
+
 
 /* <!--Футер--> */
 .footer {
